@@ -1,6 +1,7 @@
 class Book
   attr_accessor :author, :page_count
   attr_reader :title, :genre
+
   GENRES = []
   
   def initialize(title)
@@ -17,3 +18,4 @@ class Book
   end
 
 end
+GENRES.uniq
