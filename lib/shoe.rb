@@ -17,4 +17,5 @@ class Shoe
   def brand
      brands.each do |brand|
   end 
+end 
 end
